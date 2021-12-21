@@ -10,6 +10,7 @@ namespace LTQL_1721050507.Models
     [Table("NhaCungCap507")]
     public class NhaCungCap507
     {
+        [Key]
         [Display(Name = "ID Nhà Cung Cấp")]
         public int Manhacungcap { get; set; }
         [Display(Name = "Tên Nhà Cung Cấp")]
@@ -17,6 +18,7 @@ namespace LTQL_1721050507.Models
         [StringLength(50)]
 
         public string Tennhacungcap { get; set; }
+        public ICollection<PDTSanPham507> sanPhams { get; set; }
 
     }
 }

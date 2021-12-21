@@ -134,6 +134,7 @@
     </Compile>
     <Compile Include="Models\LTQLDb.cs" />
     <Compile Include="Models\NhaCungCap507.cs" />
+    <Compile Include="Models\PDTSanPham507.cs" />
     <Compile Include="Models\Table_1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
