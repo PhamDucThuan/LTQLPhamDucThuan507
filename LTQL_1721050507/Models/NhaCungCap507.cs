@@ -7,11 +7,16 @@ using System.Web;
 
 namespace LTQL_1721050507.Models
 {
+    [Table("NhaCungCap507")]
     public class NhaCungCap507
     {
-        [Key]
-        public int MaNhaCungCap { get; set; }
+        [Display(Name = "ID Nhà Cung Cấp")]
+        public int Manhacungcap { get; set; }
+        [Display(Name = "Tên Nhà Cung Cấp")]
+
         [StringLength(50)]
-        public int TenNhaCungCap { get; set; }
+
+        public string Tennhacungcap { get; set; }
+
     }
 }
